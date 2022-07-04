@@ -2,9 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
-    font-size: 35px;
-}
+
 .pen{
     color: orange;
 }
@@ -20,8 +18,9 @@ h1{
 }
 
 .half img{
-    width: 70%;
-    margin: 10px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
     
 }
 .button{
@@ -44,19 +43,12 @@ h1{
     background-size: 60px;
 
 }
-.half h1{
+;
 
-    font-size: 30px;
 
-}
-.half p{
 
-    font-size: 8px;
 
-}
-.half h3{
-    font-size:15px ;
-}
+
 
 .experience{
     background-image: url(image/exp-bg.png);
@@ -84,11 +76,9 @@ h1{
 
 }
 
-.half-1 p{
 
-    font-size: 8px;
 
-}
+
 #book{
     border-left: 7px solid tomato;
 }
@@ -99,7 +89,7 @@ h1{
 footer p{
     text-align: center;
     font-weight: bold;
-    font-size: 10px;
+    
 }
 
 
