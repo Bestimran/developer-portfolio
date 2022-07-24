@@ -11,6 +11,10 @@ body{
     display: flex;
     margin-bottom: 50px;
 }
+.container{
+    display: flex;
+    margin-bottom: 50px;
+}
 .half{
     width: 40%;
     padding-left: 75px;
@@ -43,7 +47,12 @@ body{
     background-size: 60px;
 
 }
-;
+
+.Flexible{
+    display: flex;
+    margin-bottom: 50px; 
+
+}
 
 
 
@@ -89,6 +98,37 @@ body{
 footer p{
     text-align: center;
     font-weight: bold;
+    
+}
+/* mobile view */
+@media ( max-width:768px) {
+.Flexible-container{
+    flex-direction: column;
+}
+body{
+    margin:5px;
+}
+.half{
+    width: 100%;
+    padding-left: 0;
+}
+.half img{
+    width:85%;
+}
+.container{
+    flex-direction: column-reverse;
+}
+.Flexible{
+    flex-direction: column;
+}
+.half-1{
+    width: 90%;
+    margin-left: 0;
+    padding-left: 16px;
+    margin-bottom: 35px;
+}
+
+
     
 }
 
